@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapi_onlyoffice_com=self.webpackChunkapi_onlyoffice_com||[]).push([["593220"],{101912(e){e.exports=JSON.parse('{"blogBasePath":"/api.onlyoffice.com-preview/changelog","blogTitle":"Changelog","authorsListPath":"/api.onlyoffice.com-preview/changelog/authors"}')}}]);
