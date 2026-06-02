@@ -990,30 +990,6 @@
             <guid>https://serg-kv.github.io/api.onlyoffice.com-preview/changelog/2026/02/09/version-7-6-3/</guid>
             <pubDate>Mon, 09 Feb 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[New features]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="new-features">New features<a href="https://serg-kv.github.io/api.onlyoffice.com-preview/changelog/2026/02/09/version-7-6-3/#new-features" class="hash-link" aria-label="Direct link to New features" title="Direct link to New features" translate="no">​</a></h2>
-<ul>
-<li class="">Added LLM multi button on all pages</li>
-<li class="">Added <code>Context</code> option to <code>Ask AI</code></li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes">Fixes<a href="https://serg-kv.github.io/api.onlyoffice.com-preview/changelog/2026/02/09/version-7-6-3/#fixes" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
-<ul>
-<li class=""><strong>Common</strong>:<!-- -->
-<ul>
-<li class="">Update Docusaurus OpenAPI plugin to version 4.7.1</li>
-<li class="">Removed unused scripts</li>
-</ul>
-</li>
-<li class=""><strong>Docs API</strong>:<!-- -->
-<ul>
-<li class="">Fixed typos and formating on some pages</li>
-</ul>
-</li>
-<li class=""><strong>Docspace</strong>:<!-- -->
-<ul>
-<li class="">Deleted generation of the <code>for-hosting-providers</code> section</li>
-</ul>
-</li>
-</ul>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Version 7.6.2]]></title>
