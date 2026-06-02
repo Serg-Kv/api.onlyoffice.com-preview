@@ -43,12 +43,21 @@ jobs:
           SITE_MODE: testing
           DOCUSAURUS_SITE_URL: https://serg-kv.github.io
           DOCUSAURUS_BASE_URL: /api.onlyoffice.com-preview/
-          NODE_OPTIONS: --max-old-space-size=42192
-          UV_THREADPOOL_SIZE: 16
-          RSPACK_PARALLEL: 8
-          RAYON_NUM_THREADS: 8
-          TOKIO_WORKER_THREADS: 8
-        run: npm run build -- --locale en
+          NODE_OPTIONS: --max-old-space-size=8192
+          UV_THREADPOOL_SIZE: 4
+          RSPACK_PARALLEL: 2
+          RAYON_NUM_THREADS: 2
+          TOKIO_WORKER_THREADS: 2
+        run: |
+          while true; do
+            echo "Build still running at $(date -u +%H:%M:%S)"
+            sleep 30
+          done &
+          heartbeat_pid=$!
+          npm run build -- --locale en
+          status=$?
+          kill "$heartbeat_pid" || true
+          exit "$status"
 
       - name: Replace preview files
         run: |
