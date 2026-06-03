@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapi_onlyoffice_com=self.webpackChunkapi_onlyoffice_com||[]).push([[284495],{425103:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/api.onlyoffice.com-preview/changelog","page":1,"postsPerPage":47,"totalPages":1,"totalCount":47,"blogDescription":"The history of updates and changes to the documentation.","blogTitle":"Changelog"}}')}}]);
