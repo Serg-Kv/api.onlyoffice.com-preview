@@ -64,6 +64,8 @@ jobs:
           rsync -a --delete \
             --exclude ".git/" \
             --exclude ".github/workflows/build-preview.yaml" \
+            --exclude "__server/server.bundle.js" \
+            --exclude "*/__server/server.bundle.js" \
             source/build/ preview/
           touch preview/.nojekyll
 
