@@ -673,12 +673,12 @@
 <li class="">
 <p><strong>Plugins and Macros</strong>:</p>
 <ul>
-<li class="">Reworked the <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugin-and-macros/get-started/">Get Started</a> section with improved quick-start tutorials.</li>
-<li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugin-and-macros/get-started/quick-start/hello-world-plugin/">Hello World Plugin</a> guide.</li>
-<li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugin-and-macros/get-started/quick-start/hello-world-macro/">Hello World Macro</a> guide.</li>
-<li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugin-and-macros/get-started/quick-start/comment-text-ai-tool/">Comment Text AI Tool</a> tutorial.</li>
-<li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugin-and-macros/samples/macros/spreadsheet-editor/insert-formulas-row/">Insert Formulas Row</a> macro sample for spreadsheet editor.</li>
-<li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugin-and-macros/ai/ai-agent/#create-ai-assistant">Create AI assistant</a> documentation with example.</li>
+<li class="">Reworked the <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugins/get-started/">Get Started</a> section with improved quick-start tutorials.</li>
+<li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugins/get-started/quick-start/hello-world-plugin/">Hello World Plugin</a> guide.</li>
+<li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/macros/get-started/quick-start/hello-world-macro/">Hello World Macro</a> guide.</li>
+<li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/ai/get-started/quick-start/comment-text-ai-tool/">Comment Text AI Tool</a> tutorial.</li>
+<li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/macros/samples/spreadsheet-editor/insert-formulas-row/">Insert Formulas Row</a> macro sample for spreadsheet editor.</li>
+<li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/ai/ai/ai-agent/#create-ai-assistant">Create AI assistant</a> documentation with example.</li>
 </ul>
 </li>
 <li class="">
@@ -796,10 +796,10 @@
 <li class="">
 <p><strong>Plugins and Macros</strong>:</p>
 <ul>
-<li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugin-and-macros/ai/custom-ai-tools/">AI custom tools text annotations</a> feature documentation.</li>
+<li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/ai/ai/custom-ai-tools/">AI custom tools text annotations</a> feature documentation.</li>
 <li class="">Added new <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/samples/?doctype=docs&amp;text=macros">PDF macros samples</a>.</li>
 <li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/samples/?doctype=docs&amp;text=macros">freeze panes macro example</a>.</li>
-<li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugin-and-macros/samples/macros/document-editor/bookmark-last-view/">bookmark last view macro example</a>.</li>
+<li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/macros/samples/document-editor/bookmark-last-view/">bookmark last view macro example</a>.</li>
 <li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/samples/?doctype=docs&amp;text=plugin">OData plugin</a> to plugin examples.</li>
 <li class="">Added Chinese translations for the entire Plugins API section.</li>
 </ul>
@@ -871,8 +871,8 @@
 <li class="">Corrected <code>review.reviewDisplay</code> documentation.</li>
 <li class="">Fixed styles for announcement bar with multistring content.</li>
 <li class="">Fixed problem with previous merge deleting files.</li>
-<li class="">Fixed <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugin-and-macros/samples/macros/spreadsheet-editor/currency-conversion/">Currency Conversion</a> macro to use proper <code>RecalculateAllFormulas</code> API instead of internal method with timeout.</li>
-<li class="">Fixed <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugin-and-macros/samples/macros/spreadsheet-editor/hide-or-unhide-rows-and-columns/">Hide or Unhide Rows and Columns</a> macro example.</li>
+<li class="">Fixed <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/macros/samples/spreadsheet-editor/currency-conversion/">Currency Conversion</a> macro to use proper <code>RecalculateAllFormulas</code> API instead of internal method with timeout.</li>
+<li class="">Fixed <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/macros/samples/spreadsheet-editor/hide-or-unhide-rows-and-columns/">Hide or Unhide Rows and Columns</a> macro example.</li>
 <li class="">Fixed Java syntax highlighting in CDocBuilder and CDocBuilderValue method examples.</li>
 <li class="">Fixed C++, Java, .Net, Python, and COM code samples in Document Builder methods (SaveFile, SetProperty, Execute, ExecuteCommand, CreateInstance).</li>
 <li class="">Fixed delete-annotations sample.</li>
@@ -1029,8 +1029,8 @@
 <ul>
 <li class=""><strong>Docs API</strong>:<!-- -->
 <ul>
-<li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugin-and-macros/macros/recording-macros/"><code>Recording macros</code></a> page</li>
-<li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugin-and-macros/ai/ai-agent/"><code>AI Agent</code></a> and <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugin-and-macros/ai/ai-plugin/"><code>AI Plugin</code></a> pages for Chinese</li>
+<li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/macros/macros/recording-macros/"><code>Recording macros</code></a> page</li>
+<li class="">Added <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/ai/ai/ai-agent/"><code>AI Agent</code></a> and <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/ai/ai/ai-plugin/"><code>AI Plugin</code></a> pages for Chinese</li>
 <li class="">Updated <code>Playground</code> section</li>
 <li class="">Added <code>Builder</code> option to playground script target</li>
 </ul>
@@ -1094,10 +1094,10 @@
 <li class=""><strong>Office API</strong>: Updated the <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/office-api/get-started/overview/">Office API documentation</a> for version 9.2.0.</li>
 <li class=""><strong>Plugins and macros</strong>:<!-- -->
 <ul>
-<li class="">Added the <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugin-and-macros/tutorials/debugging/for-desktop-editors/">Debugging</a> subsection to the Tutorials section</li>
-<li class="">Updated the plugin <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugin-and-macros/customization/icons/">Icons</a> page with additional info</li>
-<li class="">Added the <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugin-and-macros/interacting-with-editors/overview/how-to-customize-themes/">How to customize themes</a> page</li>
-<li class="">Added the <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugin-and-macros/structure/localization/#troubleshooting-localization">Troubleshooting</a> section to the Localization page</li>
+<li class="">Added the <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugins/development-workflow/debugging/for-desktop-editors/">Debugging</a> subsection to the Tutorials section</li>
+<li class="">Updated the plugin <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugins/fundamentals/configuration/icons-and-branding/">Icons</a> page with additional info</li>
+<li class="">Added the <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugins/interacting-with-editors/overview/how-to-customize-themes/">How to customize themes</a> page</li>
+<li class="">Added the <a class="" href="https://serg-kv.github.io/api.onlyoffice.com-preview/docs/plugins/fundamentals/configuration/localization/#troubleshooting-localization">Troubleshooting</a> section to the Localization page</li>
 </ul>
 </li>
 </ul>
